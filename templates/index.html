@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
+        <title>My Profile</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <h2>Profile</h2>
+                        <figure>
+                            <img src="{{ url_for('static', filename='images/fotoProfil.jpg') }}">
+                            <figcaption>Photo Profile</figcaption>
+                        </figure>
+                    </header>
+                    <section>
+                        <table>
+                           <tr>
+                              <th>Name</th>
+                              <td>: Ibnu Da'wan Salim Ubaidah</td>
+                           </tr>
+                           <tr>
+                              <th>Date of Birth</th>
+                              <td>: 26 Oktober 1999</td>
+                           </tr>
+                           <tr>
+                              <th>Origin</th>
+                              <td>: Kediri, East Java</td>
+                           </tr>
+                           <tr>
+                              <th>Gender</th>
+                              <td>: Male</td>
+                           </tr>
+                              <tr>
+                              <th>Number</th>
+                              <td>: +62 8124944123</td>
+                           </tr>
+                       </table>
+                    </section>
+                </article>
+            </aside>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
